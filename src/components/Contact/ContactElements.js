@@ -106,11 +106,11 @@ export const FormButton = styled(Link)`
     border: none;
     text-align: center;
     cursor: pointer;
-    transition: all 0.2s ease-in-ease-out;
+    transition: all 0.2s ease-in-out;
     text-decoration: none;
 
     &:hover {
-        transition: all 0.2s ease-in-ease-out;
+        transition: all 0.2s ease-in-out;
         background: #fff;
         color: #010606;
     }

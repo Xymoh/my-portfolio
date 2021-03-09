@@ -10,7 +10,7 @@ node_modules
 /coverage
 
 # production
-/build
+bu
 
 # misc
 .DS_Store
@@ -22,3 +22,20 @@ node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+build/static/css/main.871c8418.chunk.css
+build/static/css/main.871c8418.chunk.css.map
+build/static/js/2.aeff2402.chunk.js
+build/static/js/2.aeff2402.chunk.js.LICENSE.txt
+build/static/js/2.aeff2402.chunk.js.map
+build/static/js/main.b974412c.chunk.js
+build/static/js/main.b974412c.chunk.js.map
+build/static/js/runtime-main.1c7aa372.js
+build/static/js/runtime-main.1c7aa372.js.map
+build/static/media/csharpSkill.b670042f.png
+build/static/media/cvSzymonR.ed673f0a.png
+build/static/media/discordkayn.feae949b.png
+build/static/media/pobrane.b91ee420.png
+build/static/media/pythonSkill.19bfd49e.png
+build/static/media/reactSkill.5275c35b.png
+build/static/media/saekimon.4460338e.png
+build/asset-manifest.json
