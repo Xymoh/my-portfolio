@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/Xymoh/my-portfolio/static/css/main.871c8418.chunk.css",
-    "main.js": "/Xymoh/my-portfolio/static/js/main.b974412c.chunk.js",
-    "main.js.map": "/Xymoh/my-portfolio/static/js/main.b974412c.chunk.js.map",
-    "runtime-main.js": "/Xymoh/my-portfolio/static/js/runtime-main.1c7aa372.js",
-    "runtime-main.js.map": "/Xymoh/my-portfolio/static/js/runtime-main.1c7aa372.js.map",
-    "static/js/2.aeff2402.chunk.js": "/Xymoh/my-portfolio/static/js/2.aeff2402.chunk.js",
-    "static/js/2.aeff2402.chunk.js.map": "/Xymoh/my-portfolio/static/js/2.aeff2402.chunk.js.map",
-    "index.html": "/Xymoh/my-portfolio/index.html",
-    "static/css/main.871c8418.chunk.css.map": "/Xymoh/my-portfolio/static/css/main.871c8418.chunk.css.map",
-    "static/js/2.aeff2402.chunk.js.LICENSE.txt": "/Xymoh/my-portfolio/static/js/2.aeff2402.chunk.js.LICENSE.txt",
-    "static/media/csharpSkill.b670042f.png": "/Xymoh/my-portfolio/static/media/csharpSkill.b670042f.png",
-    "static/media/cvSzymonR.png": "/Xymoh/my-portfolio/static/media/cvSzymonR.ed673f0a.png",
-    "static/media/discordkayn.png": "/Xymoh/my-portfolio/static/media/discordkayn.feae949b.png",
-    "static/media/pobrane.b91ee420.png": "/Xymoh/my-portfolio/static/media/pobrane.b91ee420.png",
-    "static/media/pythonSkill.19bfd49e.png": "/Xymoh/my-portfolio/static/media/pythonSkill.19bfd49e.png",
-    "static/media/reactSkill.5275c35b.png": "/Xymoh/my-portfolio/static/media/reactSkill.5275c35b.png",
-    "static/media/saekimon.png": "/Xymoh/my-portfolio/static/media/saekimon.4460338e.png"
+    "main.css": "./static/css/main.871c8418.chunk.css",
+    "main.js": "./static/js/main.bf67d7ee.chunk.js",
+    "main.js.map": "./static/js/main.bf67d7ee.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.f53835bd.js",
+    "runtime-main.js.map": "./static/js/runtime-main.f53835bd.js.map",
+    "static/js/2.a116c63e.chunk.js": "./static/js/2.a116c63e.chunk.js",
+    "static/js/2.a116c63e.chunk.js.map": "./static/js/2.a116c63e.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.871c8418.chunk.css.map": "./static/css/main.871c8418.chunk.css.map",
+    "static/js/2.a116c63e.chunk.js.LICENSE.txt": "./static/js/2.a116c63e.chunk.js.LICENSE.txt",
+    "static/media/UnscrambleWords.png": "./static/media/UnscrambleWords.c5d1b9a7.png",
+    "static/media/csharpSkill.b670042f.png": "./static/media/csharpSkill.b670042f.png",
+    "static/media/cvSzymonR.png": "./static/media/cvSzymonR.ed673f0a.png",
+    "static/media/discordkayn.png": "./static/media/discordkayn.feae949b.png",
+    "static/media/pobrane.b91ee420.png": "./static/media/pobrane.b91ee420.png",
+    "static/media/pythonSkill.19bfd49e.png": "./static/media/pythonSkill.19bfd49e.png",
+    "static/media/reactSkill.5275c35b.png": "./static/media/reactSkill.5275c35b.png",
+    "static/media/saekimon.png": "./static/media/saekimon.4460338e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1c7aa372.js",
-    "static/js/2.aeff2402.chunk.js",
+    "static/js/runtime-main.f53835bd.js",
+    "static/js/2.a116c63e.chunk.js",
     "static/css/main.871c8418.chunk.css",
-    "static/js/main.b974412c.chunk.js"
+    "static/js/main.bf67d7ee.chunk.js"
   ]
 }

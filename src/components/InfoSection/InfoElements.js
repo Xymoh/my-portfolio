@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const InfoContainer = styled.div`
     color: #fff;
@@ -126,6 +127,11 @@ export const Img = styled.img`
 `
 
 export const UrlLink = styled.a`
+    text-decoration: none;
+    color: ${({lightUrlText}) => (lightUrlText ? '#fff' : '#010606')};
+`
+
+export const UrlRouteLink = styled(Link)`
     text-decoration: none;
     color: ${({lightUrlText}) => (lightUrlText ? '#fff' : '#010606')};
 `

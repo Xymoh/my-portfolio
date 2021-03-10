@@ -13,7 +13,8 @@ import {
     ImgWrap, 
     Img,
     UrlLink,
-    ButtonLink 
+    ButtonLink, 
+    UrlRouteLink
 } from './InfoElements'
 
 function InfoSection({
@@ -32,7 +33,8 @@ function InfoSection({
     primary,
     dark,
     dark2,
-    lightUrlText
+    lightUrlText,
+    downloadLabel
 }) {
     return (
         <>
@@ -53,7 +55,9 @@ function InfoSection({
                                     offset={-80} 
                                     primary={primary ? 1 : 0} 
                                     dark={dark ? 1 : 0}
-                                    ><UrlLink lightUrlText={lightUrlText ? 1 : 0} href={urllink} target="_blank" download="CV-Szymon-Ruszkiewicz.pdf">{buttonLabel}</UrlLink>
+                                    >
+                                        <UrlLink lightUrlText={lightUrlText ? 1 : 0} href={urllink} target="_blank" download>{buttonLabel}</UrlLink>
+                                        <UrlRouteLink lightUrlText={lightUrlText ? 1 : 0} to="/files/EN-CV-Szymon-Ruszkiewicz.pdf" target="_blank" download>{downloadLabel}</UrlRouteLink>
                                 </ButtonLink>
                             </BtnWrap>
                         </TextWrapper>
