@@ -47,6 +47,8 @@ function InfoSection({
                             <Heading lightText={lightText}>{headline}</Heading>
                             <Subtitle darkText={darkText}>{description}</Subtitle>
                             <BtnWrap>
+                            <UrlRouteLink lightUrlText={lightUrlText ? 1 : 0} to="/files/EN-CV-Szymon-Ruszkiewicz.pdf" target="_blank" download>
+                            <UrlLink lightUrlText={lightUrlText ? 1 : 0} href={urllink} target="_blank" download>
                                 <ButtonLink
                                     href={urllink} 
                                     smooth={true} 
@@ -56,9 +58,11 @@ function InfoSection({
                                     primary={primary ? 1 : 0} 
                                     dark={dark ? 1 : 0}
                                     >
-                                        <UrlLink lightUrlText={lightUrlText ? 1 : 0} href={urllink} target="_blank" download>{buttonLabel}</UrlLink>
-                                        <UrlRouteLink lightUrlText={lightUrlText ? 1 : 0} to="/files/EN-CV-Szymon-Ruszkiewicz.pdf" target="_blank" download>{downloadLabel}</UrlRouteLink>
+                                        {buttonLabel}
+                                        {downloadLabel}
                                 </ButtonLink>
+                                </UrlLink>
+                                </UrlRouteLink>
                             </BtnWrap>
                         </TextWrapper>
                         </Column1>

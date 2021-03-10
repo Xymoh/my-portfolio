@@ -60,7 +60,7 @@ export const homeObjFour = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Resume',
-    urllink: './src/files/EN-CV-Szymon-Ruszkiewicz.pdf',
+    urllink: './files/EN-CV-Szymon-Ruszkiewicz.pdf',
     downloadLabel: 'Download CV', 
     headline: 'My Curriculum Vitae',
     description: 'Press button below to download a .pdf file of my resume.',
