@@ -134,6 +134,4 @@ export const UrlLink = styled.a`
 export const UrlRouteLink = styled(Link)`
     text-decoration: none;
     color: ${({lightUrlText}) => (lightUrlText ? '#fff' : '#010606')};
-    width: 100%;
-    height: max-content;
 `

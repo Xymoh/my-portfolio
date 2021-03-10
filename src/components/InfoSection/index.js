@@ -32,9 +32,9 @@ function InfoSection({
     alt,
     primary,
     dark,
-    dark2,
     lightUrlText,
-    downloadLabel
+    downloadLabel,
+    urlroutelink
 }) {
     return (
         <>
@@ -47,7 +47,7 @@ function InfoSection({
                             <Heading lightText={lightText}>{headline}</Heading>
                             <Subtitle darkText={darkText}>{description}</Subtitle>
                             <BtnWrap>
-                            <UrlRouteLink lightUrlText={lightUrlText ? 1 : 0} to="/files/EN-CV-Szymon-Ruszkiewicz.pdf" target="_blank" download>
+                            <UrlRouteLink lightUrlText={lightUrlText ? 1 : 0} to={urlroutelink} target="_blank" download>
                             <UrlLink lightUrlText={lightUrlText ? 1 : 0} href={urllink} target="_blank" download>
                                 <ButtonLink
                                     href={urllink} 
