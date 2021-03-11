@@ -1,8 +1,8 @@
-import React from 'react'
-import './App.css'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Home from './pages'
-import ContactPage from './pages/contact';
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./pages";
+import ContactPage from "./pages/contact";
 
 function App() {
   return (
