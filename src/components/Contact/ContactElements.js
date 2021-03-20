@@ -27,10 +27,6 @@ export const FormWrap = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  @media screen and (max-width: 400px) {
-    height: 80%;
-  } ;
 `;
 
 export const Icon = styled(Link)`
@@ -52,9 +48,11 @@ export const FormContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 280px) {
     padding: 10px;
+    width: 120%;
   }
 `;
 
